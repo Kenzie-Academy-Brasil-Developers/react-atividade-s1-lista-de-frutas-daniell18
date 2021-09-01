@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-weight: bold;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "sans-serif";
+  background-image: url("https://image.freepik.com/fotos-gratis/lista-de-compras-livro-de-receitas-plano-de-dieta-dieta-ou-comida-vegana_120485-181.jpg");
+}
+.lista {
+  font-size: 20px;
+}
+.lista li {
+  margin: 5px;
+}
+.price {
+  margin-top: 120px;
+  font-size: 30px;
+  color: #3b85f5;
+}
+button {
+  font-weight: bold;
+  font-size: 15px;
+  width: 150px;
+  background-color: #0747a8;
+  border-radius: 5px;
+  color: antiquewhite;
+  padding: 20px;
+}
+button:hover {
+  background-color: #3b85f5;
+  cursor: pointer;
+}
